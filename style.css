@@ -2,9 +2,9 @@
     background-color:#f1f5f1;
     padding-top: 135px;
     padding-left: 45px;
-    height: 500px;
+    height: 490px;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;  
     background-position: center;
     font-size: 35px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -13,9 +13,14 @@
     
 }
 
+.logo {
+    height: 190px;
+    position: absolute;
+    z-index: -1;
+    top: 1px;
+}
 
 .maintitle {
-    padding-left: 35%;
     font-size: 30px;
   
 }
@@ -23,16 +28,20 @@
     text-align: center;
 }
 
-
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 
 .imageflowers {
-
-width: 40%;
 position: absolute;
-top: 35%;
-padding-left: 50%;
-opacity: 0.8;
+width: 52%;
+bottom: 6px;
+padding-right: 25%;
+top: 38%;
+
+
 
 
 
@@ -45,9 +54,9 @@ opacity: 0.8;
     font-size: 15px;
 }
 .section2paragraph {
-    padding-left: 5%;
+    padding-left: 65%;
     padding-top: 30px;
-    font-size: 35px;
+    font-size: 25px;
   
 }
 
@@ -110,10 +119,10 @@ padding-bottom: 1%;
      background-color: #303036;
       height: 18%;
       padding-top: 0.15px;
-      padding-left: 10%;
       align-items: center;
+      justify-content: space-around;
       display: flex;
-      height: 210px;
+      height: 200px;
 
   }
 
@@ -169,8 +178,15 @@ padding-bottom: 1%;
   }
      
   .portfoliocontainer {
+      background-color: #303036;
 
     
   
 
+  }
+  .circle {
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
   }
