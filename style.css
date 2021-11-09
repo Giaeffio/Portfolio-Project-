@@ -190,3 +190,23 @@ padding-bottom: 1%;
     width: 100px;
     border-radius: 50%;
   }
+
+  .comingsoon{
+      font-size: 100px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      
+  }
+  .livingroom{
+     position: absolute;
+      opacity: 0.8;
+    top:30%;
+   
+  }
+  .contactheader {
+      background-color: #ba7b67;
+      font-size: 25px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-family: 'Raleway', sans-serif; 
+      opacity: 0.8;
+  }
