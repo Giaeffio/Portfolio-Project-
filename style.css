@@ -152,12 +152,14 @@ padding-bottom: 1%;
   }
   
   .lorenzodrums {
-  
-    position: absolute;
-    padding-top: 34%;
-    top: 20px;
-    right: 40px;
-    padding-right: 4%;
+ display: flex; 
+ padding-left: 60%;
+ margin-top: -42%;
+ 
+ 
+
+
+   
   }
 
   .familyphoto {
@@ -192,14 +194,16 @@ padding-bottom: 1%;
   }
 
   .comingsoon{
+    
+
       font-size: 100px;
       font-family: 'Open Sans Condensed', sans-serif;
       font-family: 'Raleway', sans-serif;
       
   }
-  .livingroom{
+  .contactlogo{
      position: absolute;
-      opacity: 0.8;
+    opacity: 0.8;
     top:30%;
    
   }
